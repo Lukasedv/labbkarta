@@ -9,7 +9,7 @@ export interface FilterState {
   networks: string[];
 }
 
-const initialFilters: FilterState = {
+const defaultFilters: FilterState = {
   search: "",
   countries: [],
   digitizationLevels: [],
@@ -17,8 +17,11 @@ const initialFilters: FilterState = {
   networks: [],
 };
 
-export function useFilters(labs: Lab[]) {
-  const [filters, setFilters] = useState<FilterState>(initialFilters);
+export function useFilters(labs: Lab[], initialOverrides?: Partial<FilterState>) {
+  const [filters, setFilters] = useState<FilterState>(() => ({
+    ...defaultFilters,
+    ...initialOverrides,
+  }));
 
   const availableCountries = useMemo(
     () => [...new Set(labs.map((l) => l.country))].sort(),
@@ -119,7 +122,7 @@ export function useFilters(labs: Lab[]) {
     []
   );
 
-  const clearFilters = useCallback(() => setFilters(initialFilters), []);
+  const clearFilters = useCallback(() => setFilters(defaultFilters), []);
 
   return {
     filters,

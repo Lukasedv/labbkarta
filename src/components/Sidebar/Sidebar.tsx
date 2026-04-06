@@ -1,8 +1,10 @@
 import type { Lab, DigitizationLevel, LabType } from "../../types/lab";
 import type { FilterState } from "../../hooks/useFilters";
 import { SearchBar } from "./SearchBar";
+import { StatsPanel } from "./StatsPanel";
 import { FilterGroup } from "./FilterGroup";
 import { LabList } from "./LabList";
+import { ExportButton } from "./ExportButton";
 import {
   DIGITIZATION_LABELS,
   DIGITIZATION_COLORS,
@@ -12,6 +14,7 @@ import {
 interface SidebarProps {
   filters: FilterState;
   filteredLabs: Lab[];
+  allLabs: Lab[];
   totalCount: number;
   availableCountries: string[];
   availableNetworks: string[];
@@ -30,6 +33,7 @@ interface SidebarProps {
 export function Sidebar({
   filters,
   filteredLabs,
+  allLabs,
   totalCount,
   availableCountries,
   availableNetworks,
@@ -106,6 +110,9 @@ export function Sidebar({
           </div>
         </div>
 
+        {/* Stats */}
+        <StatsPanel labs={allLabs} />
+
         {/* Filters */}
         <div className="flex-1 overflow-y-auto">
           <div className="p-3 space-y-3">
@@ -163,6 +170,9 @@ export function Sidebar({
             />
           </div>
         </div>
+
+        {/* Export buttons — sticky footer */}
+        <ExportButton labs={filteredLabs} />
       </div>
     </>
   );

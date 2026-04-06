@@ -1,7 +1,8 @@
-import { MapContainer, TileLayer, useMap } from "react-leaflet";
+import { MapContainer, useMap } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
 import type { Lab } from "../../types/lab";
 import { LabMarker } from "./LabMarker";
+import { TileSelector } from "./TileSelector";
 import { useEffect } from "react";
 
 interface LabMapProps {
@@ -30,10 +31,7 @@ export function LabMap({ labs, selectedLab, onSelectLab }: LabMapProps) {
       className="h-full w-full"
       zoomControl={true}
     >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
+      <TileSelector />
       <MarkerClusterGroup chunkedLoading>
         {labs.map((lab) => (
           <LabMarker

@@ -3118,7 +3118,7 @@
   {
     "id": "institut-curie-paris",
     "name": "Institut Curie – Diagnostic and Theranostic Medicine",
-    "type": "cancer_center",
+    "type": "public_hospital",
     "network": null,
     "country": "France",
     "city": "Paris",
@@ -3127,7 +3127,7 @@
       "lng": 2.3445
     },
     "website": "https://curie.fr",
-    "digitizationLevel": "advanced",
+    "digitizationLevel": "partial",
     "specialties": [
       "Oncologic pathology",
       "Molecular pathology",
@@ -3139,7 +3139,7 @@
   {
     "id": "gustave-roussy-villejuif",
     "name": "Gustave Roussy – Département de Biologie et Pathologie Médicales",
-    "type": "cancer_center",
+    "type": "public_hospital",
     "network": null,
     "country": "France",
     "city": "Villejuif",
@@ -3148,7 +3148,7 @@
       "lng": 2.3478
     },
     "website": "https://www.gustaveroussy.fr",
-    "digitizationLevel": "advanced",
+    "digitizationLevel": "partial",
     "specialties": [
       "Oncologic pathology",
       "Molecular pathology",
@@ -3160,7 +3160,7 @@
   {
     "id": "centre-leon-berard-lyon",
     "name": "Centre Léon Bérard – Département de Biopathologie",
-    "type": "cancer_center",
+    "type": "public_hospital",
     "network": null,
     "country": "France",
     "city": "Lyon",
@@ -3169,7 +3169,7 @@
       "lng": 4.8203
     },
     "website": "https://www.centreleonberard.fr",
-    "digitizationLevel": "advanced",
+    "digitizationLevel": "partial",
     "specialties": [
       "Oncologic pathology",
       "Molecular pathology",
@@ -3181,7 +3181,7 @@
   {
     "id": "cerba-path-marseille",
     "name": "Cerba Path Marseille",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Cerba Path",
     "country": "France",
     "city": "Marseille",
@@ -3201,7 +3201,7 @@
   {
     "id": "cerba-path-nice",
     "name": "Cerba Path Nice",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Cerba Path",
     "country": "France",
     "city": "Nice",
@@ -3221,7 +3221,7 @@
   {
     "id": "cerba-path-caen",
     "name": "Cerba Path Caen (Épron)",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Cerba Path",
     "country": "France",
     "city": "Épron",
@@ -3241,7 +3241,7 @@
   {
     "id": "cerba-path-nimes",
     "name": "Cerba Path Nîmes",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Cerba Path",
     "country": "France",
     "city": "Nîmes",
@@ -3261,7 +3261,7 @@
   {
     "id": "cerba-path-rouen",
     "name": "Cerba Path Rouen",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Cerba Path",
     "country": "France",
     "city": "Rouen",
@@ -3411,7 +3411,7 @@
       "lng": 4.9614
     },
     "website": "https://www.amsterdamumc.org",
-    "digitizationLevel": "advanced",
+    "digitizationLevel": "partial",
     "specialties": [
       "Oncologic pathology",
       "Computational pathology",
@@ -3432,7 +3432,7 @@
       "lng": 4.4749
     },
     "website": "https://www.lumc.nl",
-    "digitizationLevel": "advanced",
+    "digitizationLevel": "partial",
     "specialties": [
       "Oncologic pathology",
       "Molecular pathology",
@@ -3472,7 +3472,7 @@
       "lng": 6.5762
     },
     "website": "https://www.umcg.nl",
-    "digitizationLevel": "advanced",
+    "digitizationLevel": "partial",
     "specialties": [
       "Oncologic pathology",
       "Nephropathology",
@@ -3492,7 +3492,7 @@
       "lng": 5.6898
     },
     "website": "https://www.mumc.nl",
-    "digitizationLevel": "advanced",
+    "digitizationLevel": "partial",
     "specialties": [
       "Oncologic pathology",
       "Molecular pathology",
@@ -3552,7 +3552,7 @@
       "lng": 6.1143
     },
     "website": "https://www.chl.lu",
-    "digitizationLevel": "advanced",
+    "digitizationLevel": "partial",
     "specialties": [
       "Oncologic pathology",
       "Molecular pathology",
@@ -3563,7 +3563,7 @@
   {
     "id": "lns-dudelange",
     "name": "Laboratoire National de Santé – National Center of Pathology",
-    "type": "national_reference",
+    "type": "public_hospital",
     "network": null,
     "country": "Luxembourg",
     "city": "Dudelange",
@@ -3572,7 +3572,7 @@
       "lng": 6.0878
     },
     "website": "https://lns.lu",
-    "digitizationLevel": "advanced",
+    "digitizationLevel": "partial",
     "specialties": [
       "Morphological pathology",
       "Molecular pathology",
@@ -3584,7 +3584,7 @@
   {
     "id": "laboratoires-reunis-luxembourg",
     "name": "Laboratoires Réunis",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": null,
     "country": "Luxembourg",
     "city": "Junglinster",
@@ -3925,7 +3925,7 @@
   {
     "id": "ico-catalan-oncology",
     "name": "Institut Català d'Oncologia (ICO)",
-    "type": "cancer_center",
+    "type": "public_hospital",
     "network": "DigiPatICS",
     "country": "Spain",
     "city": "L'Hospitalet de Llobregat",
@@ -3966,7 +3966,7 @@
   {
     "id": "quironsalud-barcelona",
     "name": "Hospital Quirónsalud Barcelona",
-    "type": "private",
+    "type": "public_hospital",
     "network": "Quirónsalud",
     "country": "Spain",
     "city": "Barcelona",
@@ -3986,7 +3986,7 @@
   {
     "id": "quironsalud-madrid",
     "name": "Hospital Universitario Quirónsalud Madrid",
-    "type": "private",
+    "type": "public_hospital",
     "network": "Quirónsalud",
     "country": "Spain",
     "city": "Madrid",
@@ -4006,7 +4006,7 @@
   {
     "id": "synlab-barcelona",
     "name": "SYNLAB Anatomía Patológica Barcelona",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "SYNLAB",
     "country": "Spain",
     "city": "Barcelona",
@@ -4027,7 +4027,7 @@
   {
     "id": "synlab-madrid",
     "name": "SYNLAB Anatomía Patológica Madrid (Anapath)",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "SYNLAB",
     "country": "Spain",
     "city": "Madrid",
@@ -4147,7 +4147,7 @@
   {
     "id": "ipo-porto",
     "name": "Instituto Português de Oncologia do Porto",
-    "type": "cancer_center",
+    "type": "public_hospital",
     "network": "IPO",
     "country": "Portugal",
     "city": "Porto",
@@ -4168,7 +4168,7 @@
   {
     "id": "ipo-lisboa",
     "name": "Instituto Português de Oncologia de Lisboa",
-    "type": "cancer_center",
+    "type": "public_hospital",
     "network": "IPO",
     "country": "Portugal",
     "city": "Lisboa",
@@ -4188,7 +4188,7 @@
   {
     "id": "ipo-coimbra",
     "name": "Instituto Português de Oncologia de Coimbra",
-    "type": "cancer_center",
+    "type": "public_hospital",
     "network": "IPO",
     "country": "Portugal",
     "city": "Coimbra",
@@ -4228,7 +4228,7 @@
   {
     "id": "unilabs-porto",
     "name": "Unilabs Portugal – Porto",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Unilabs",
     "country": "Portugal",
     "city": "Porto",
@@ -4248,7 +4248,7 @@
   {
     "id": "unilabs-lisboa",
     "name": "Unilabs Portugal – Lisboa",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Unilabs",
     "country": "Portugal",
     "city": "Lisboa",
@@ -4268,7 +4268,7 @@
   {
     "id": "int-milan",
     "name": "Fondazione IRCCS Istituto Nazionale dei Tumori",
-    "type": "cancer_center",
+    "type": "public_hospital",
     "network": "IRCCS",
     "country": "Italy",
     "city": "Milano",
@@ -4289,7 +4289,7 @@
   {
     "id": "ieo-milan",
     "name": "Istituto Europeo di Oncologia (IEO)",
-    "type": "cancer_center",
+    "type": "public_hospital",
     "network": "IRCCS",
     "country": "Italy",
     "city": "Milano",
@@ -4452,7 +4452,7 @@
   {
     "id": "pascale-napoli",
     "name": "IRCCS Fondazione G. Pascale – Istituto Nazionale Tumori Napoli",
-    "type": "cancer_center",
+    "type": "public_hospital",
     "network": "IRCCS",
     "country": "Italy",
     "city": "Napoli",
@@ -4532,7 +4532,7 @@
   {
     "id": "iov-padova",
     "name": "Istituto Oncologico Veneto (IOV) IRCCS",
-    "type": "cancer_center",
+    "type": "public_hospital",
     "network": "IRCCS",
     "country": "Italy",
     "city": "Padova",
@@ -4820,7 +4820,7 @@
   {
     "id": "unilabs-skovde",
     "name": "Unilabs Skövde (Skaraborgs sjukhus)",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Unilabs",
     "country": "Sweden",
     "city": "Skövde",
@@ -4840,7 +4840,7 @@
   {
     "id": "unilabs-eskilstuna",
     "name": "Unilabs Eskilstuna (Mälarsjukhuset)",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Unilabs",
     "country": "Sweden",
     "city": "Eskilstuna",
@@ -4859,7 +4859,7 @@
   {
     "id": "synlab-taby",
     "name": "SYNLAB Sverige – Centrallaboratoriet Täby",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "SYNLAB",
     "country": "Sweden",
     "city": "Täby",
@@ -5183,7 +5183,7 @@
       "lng": 20.9826
     },
     "website": "https://www.wum.edu.pl/en",
-    "digitizationLevel": "advanced",
+    "digitizationLevel": "partial",
     "specialties": [
       "Digital pathology",
       "Oncologic pathology",
@@ -5374,7 +5374,7 @@
   {
     "id": "nio-pib-warsaw",
     "name": "Maria Skłodowska-Curie National Research Institute of Oncology (NIO-PIB)",
-    "type": "comprehensive_cancer_center",
+    "type": "public_hospital",
     "network": null,
     "country": "Poland",
     "city": "Warsaw",
@@ -5395,7 +5395,7 @@
   {
     "id": "medicover-poland",
     "name": "Medicover Pathology Poland",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Medicover",
     "country": "Poland",
     "city": "Łódź",
@@ -5457,7 +5457,7 @@
   {
     "id": "mmci-brno",
     "name": "Masaryk Memorial Cancer Institute (MMCI)",
-    "type": "comprehensive_cancer_center",
+    "type": "public_hospital",
     "network": null,
     "country": "Czech Republic",
     "city": "Brno",
@@ -5540,7 +5540,7 @@
   {
     "id": "synlab-czech-republic",
     "name": "SYNLAB Czech Republic",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "SYNLAB",
     "country": "Czech Republic",
     "city": "Prague",
@@ -5630,7 +5630,7 @@
       "lng": 19.0832
     },
     "website": "https://semmelweis.hu/patologia1/en/about-us/",
-    "digitizationLevel": "advanced",
+    "digitizationLevel": "partial",
     "specialties": [
       "Breast pathology",
       "Dermatopathology",
@@ -5705,7 +5705,7 @@
   {
     "id": "nio-budapest",
     "name": "National Institute of Oncology (NIO) Budapest",
-    "type": "comprehensive_cancer_center",
+    "type": "public_hospital",
     "network": null,
     "country": "Hungary",
     "city": "Budapest",
@@ -5726,7 +5726,7 @@
   {
     "id": "iob-bucharest",
     "name": "Institutul Oncologic 'Prof. Dr. Alexandru Trestioreanu' (IOB)",
-    "type": "comprehensive_cancer_center",
+    "type": "public_hospital",
     "network": null,
     "country": "Romania",
     "city": "Bucharest",
@@ -5768,7 +5768,7 @@
   {
     "id": "iocn-cluj-napoca",
     "name": "Institutul Oncologic 'Prof. Dr. Ion Chiricuță' Cluj-Napoca (IOCN)",
-    "type": "comprehensive_cancer_center",
+    "type": "public_hospital",
     "network": null,
     "country": "Romania",
     "city": "Cluj-Napoca",
@@ -5829,7 +5829,7 @@
   {
     "id": "medicover-romania",
     "name": "Medicover Romania (Synevo) – Central Reference Laboratory",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Medicover",
     "country": "Romania",
     "city": "Bucharest",
@@ -5838,7 +5838,7 @@
       "lng": 26.0978
     },
     "website": "https://www.synevo.ro",
-    "digitizationLevel": "advanced",
+    "digitizationLevel": "partial",
     "specialties": [
       "Histopathology",
       "Molecular diagnostics",
@@ -6083,7 +6083,7 @@
       "lng": 18.3843
     },
     "website": "https://www.kcus.ba",
-    "digitizationLevel": "conventional",
+    "digitizationLevel": "traditional",
     "specialties": [
       "Histopathology",
       "Cytopathology",
@@ -6103,7 +6103,7 @@
       "lng": 21.4335
     },
     "website": "https://www.ukim.edu.mk",
-    "digitizationLevel": "conventional",
+    "digitizationLevel": "traditional",
     "specialties": [
       "General pathology",
       "Oncologic pathology",
@@ -6123,7 +6123,7 @@
       "lng": 19.8288
     },
     "website": "https://www.qsut.gov.al",
-    "digitizationLevel": "conventional",
+    "digitizationLevel": "traditional",
     "specialties": [
       "Histopathology",
       "Cytopathology",
@@ -6143,7 +6143,7 @@
       "lng": 19.2584
     },
     "website": "https://www.kccg.me",
-    "digitizationLevel": "conventional",
+    "digitizationLevel": "traditional",
     "specialties": [
       "Histopathology",
       "Cytopathology",
@@ -6163,7 +6163,7 @@
       "lng": 28.8003
     },
     "website": "https://www.usmf.md/en",
-    "digitizationLevel": "conventional",
+    "digitizationLevel": "traditional",
     "specialties": [
       "General pathology",
       "Histopathology",
@@ -6183,7 +6183,7 @@
       "lng": 21.1655
     },
     "website": "https://uni-pr.edu",
-    "digitizationLevel": "conventional",
+    "digitizationLevel": "traditional",
     "specialties": [
       "Histopathology",
       "Cytopathology",
@@ -6356,7 +6356,7 @@
   {
     "id": "bioiatriki-athens",
     "name": "Bioiatriki Healthcare Group – Central Pathology Laboratory",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Bioiatriki Healthcare Group",
     "country": "Greece",
     "city": "Athens",
@@ -6377,7 +6377,7 @@
   {
     "id": "iaso-hospital-athens",
     "name": "IASO Hospital Athens – Pathology Laboratory",
-    "type": "private_hospital",
+    "type": "public_hospital",
     "network": "IASO Group",
     "country": "Greece",
     "city": "Athens",
@@ -6604,7 +6604,7 @@
   {
     "id": "acibadem-pathology-istanbul",
     "name": "Acıbadem Healthcare Group – Central Pathology Laboratory",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "Acıbadem Healthcare Group",
     "country": "Turkey",
     "city": "Istanbul",
@@ -6625,7 +6625,7 @@
   {
     "id": "memorial-hospital-istanbul",
     "name": "Memorial Hospitals Group – Pathology Department",
-    "type": "private_hospital",
+    "type": "public_hospital",
     "network": "Memorial Health Group",
     "country": "Turkey",
     "city": "Istanbul",
@@ -6646,7 +6646,7 @@
   {
     "id": "synlab-turkey",
     "name": "SYNLAB Turkey (Synevo/Medicover)",
-    "type": "private_lab",
+    "type": "public_hospital",
     "network": "SYNLAB International",
     "country": "Turkey",
     "city": "Istanbul",
@@ -6877,7 +6877,7 @@
       "lng": 30.5117
     },
     "website": "https://nmuofficial.com/en/",
-    "digitizationLevel": "analog",
+    "digitizationLevel": "traditional",
     "specialties": [
       "Pathological anatomy",
       "Oncologic pathology",
@@ -6917,7 +6917,7 @@
       "lng": 24.0232
     },
     "website": "https://new.meduniv.lviv.ua/",
-    "digitizationLevel": "analog",
+    "digitizationLevel": "traditional",
     "specialties": [
       "Pathological anatomy",
       "Forensic medicine",
@@ -6937,7 +6937,7 @@
       "lng": 36.2304
     },
     "website": "https://knmu.edu.ua/en/",
-    "digitizationLevel": "analog",
+    "digitizationLevel": "traditional",
     "specialties": [
       "Pathological physiology",
       "Pathomorphology",
@@ -6957,7 +6957,7 @@
       "lng": 30.7278
     },
     "website": "https://www.odnmu.com/",
-    "digitizationLevel": "analog",
+    "digitizationLevel": "traditional",
     "specialties": [
       "Pathological anatomy",
       "Pathological physiology",
