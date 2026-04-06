@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { getCountryFlag } from "../../utils/countryFlags";
 
 interface FilterOption {
   value: string;
@@ -49,7 +50,10 @@ export function FilterGroup({
                 style={{ backgroundColor: opt.color }}
               />
             )}
-            <span className="text-gray-700 truncate">{opt.label}</span>
+            <span className="text-gray-700 truncate">
+              {title === "Country" && getCountryFlag(opt.label)}{" "}
+              {opt.label}
+            </span>
           </label>
         ))}
       </div>

@@ -1,14 +1,29 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { LabMap } from "./components/Map/LabMap";
 import { MapLegend } from "./components/Map/MapLegend";
 import { Sidebar } from "./components/Sidebar/Sidebar";
 import { LabDetailPanel } from "./components/LabDetail/LabDetailPanel";
 import { useLabData } from "./hooks/useLabData";
 import { useFilters } from "./hooks/useFilters";
+import { parseUrlFilters, useUrlState } from "./hooks/useUrlState";
 import type { Lab } from "./types/lab";
+
+const urlState = parseUrlFilters();
 
 export default function App() {
   const { labs, loading, error } = useLabData();
+
+  const initialFilterOverrides = useMemo(
+    () => ({
+      search: urlState.search,
+      countries: urlState.countries,
+      digitizationLevels: urlState.digitizationLevels,
+      labTypes: urlState.labTypes,
+      networks: urlState.networks,
+    }),
+    [],
+  );
+
   const {
     filters,
     filteredLabs,
@@ -20,10 +35,30 @@ export default function App() {
     toggleLabType,
     toggleNetwork,
     clearFilters,
-  } = useFilters(labs);
+  } = useFilters(labs, initialFilterOverrides);
 
   const [selectedLab, setSelectedLab] = useState<Lab | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  // Restore selected lab from URL once labs are loaded
+  const initialSelectedApplied = useMemo(() => {
+    if (
+      urlState.selectedLabId &&
+      labs.length > 0 &&
+      selectedLab === null
+    ) {
+      const found = labs.find((l) => l.id === urlState.selectedLabId);
+      if (found) {
+        setSelectedLab(found);
+        return true;
+      }
+    }
+    return false;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [labs]);
+  void initialSelectedApplied;
+
+  useUrlState(filters, selectedLab);
 
   const handleSelectLab = (lab: Lab) => {
     setSelectedLab(lab);
@@ -57,6 +92,7 @@ export default function App() {
       <Sidebar
         filters={filters}
         filteredLabs={filteredLabs}
+        allLabs={labs}
         totalCount={labs.length}
         availableCountries={availableCountries}
         availableNetworks={availableNetworks}
@@ -83,7 +119,9 @@ export default function App() {
         {selectedLab && (
           <LabDetailPanel
             lab={selectedLab}
+            allLabs={labs}
             onClose={() => setSelectedLab(null)}
+            onSelectLab={handleSelectLab}
           />
         )}
       </div>
