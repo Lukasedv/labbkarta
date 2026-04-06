@@ -7,7 +7,7 @@ export function useLabData() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/data/labs.json")
+    fetch(`${import.meta.env.BASE_URL}data/labs.json`)
       .then((res) => {
         if (!res.ok) throw new Error("Failed to load lab data");
         return res.json();
