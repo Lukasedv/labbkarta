@@ -74,14 +74,14 @@ export function useUrlState(
 
     const params = new URLSearchParams();
 
-    if (filters.search) params.set(PARAM_SEARCH, filters.search);
-    if (filters.countries.length > 0)
+    if (filters?.search) params.set(PARAM_SEARCH, filters.search);
+    if (filters?.countries?.length > 0)
       params.set(PARAM_COUNTRY, filters.countries.join(","));
-    if (filters.digitizationLevels.length > 0)
+    if (filters?.digitizationLevels?.length > 0)
       params.set(PARAM_DIGITIZATION, filters.digitizationLevels.join(","));
-    if (filters.labTypes.length > 0)
+    if (filters?.labTypes?.length > 0)
       params.set(PARAM_TYPE, filters.labTypes.join(","));
-    if (filters.networks.length > 0)
+    if (filters?.networks?.length > 0)
       params.set(PARAM_NETWORK, filters.networks.join(","));
     if (selectedLab) params.set(PARAM_SELECTED, selectedLab.id);
 

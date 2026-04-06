@@ -13,16 +13,15 @@ const urlState = parseUrlFilters();
 export default function App() {
   const { labs, loading, error } = useLabData();
 
-  const initialFilterOverrides = useMemo(
-    () => ({
-      search: urlState.search,
-      countries: urlState.countries,
-      digitizationLevels: urlState.digitizationLevels,
-      labTypes: urlState.labTypes,
-      networks: urlState.networks,
-    }),
-    [],
-  );
+  const initialFilterOverrides = useMemo(() => {
+    const overrides: Partial<typeof filters> = {};
+    if (urlState.search) overrides.search = urlState.search;
+    if (urlState.countries?.length) overrides.countries = urlState.countries;
+    if (urlState.digitizationLevels?.length) overrides.digitizationLevels = urlState.digitizationLevels;
+    if (urlState.labTypes?.length) overrides.labTypes = urlState.labTypes;
+    if (urlState.networks?.length) overrides.networks = urlState.networks;
+    return overrides;
+  }, []);
 
   const {
     filters,
