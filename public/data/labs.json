@@ -1,0 +1,615 @@
+[
+  {
+    "id": "leeds-teaching-hospitals",
+    "name": "Leeds Teaching Hospitals NHS Trust",
+    "type": "public_hospital",
+    "country": "United Kingdom",
+    "city": "Leeds",
+    "coordinates": { "lat": 53.8008, "lng": -1.5491 },
+    "website": "https://www.leedsth.nhs.uk",
+    "annualSampleVolume": "290,000+ H&E slides/year",
+    "digitizationLevel": "fully_digital",
+    "scannerVendors": ["Leica"],
+    "specialties": ["Digital pathology", "AI research"],
+    "description": "First hospital in the UK to go 100% digital for primary histopathology diagnosis (2018). Leads the National Pathology Imaging Co-operative (NPIC).",
+    "sources": [
+      "https://www.leedsth.nhs.uk",
+      "https://npic.ac.uk"
+    ]
+  },
+  {
+    "id": "charite-berlin",
+    "name": "Charité – Universitätsmedizin Berlin",
+    "type": "academic",
+    "country": "Germany",
+    "city": "Berlin",
+    "coordinates": { "lat": 52.526, "lng": 13.3777 },
+    "website": "https://www.charite.de",
+    "annualSampleVolume": "200,000–300,000+ cases/year",
+    "digitizationLevel": "partial",
+    "specialties": ["Neuropathology", "Oncologic pathology"],
+    "description": "One of the largest and most prestigious university hospitals in Europe, with a renowned Institute of Pathology.",
+    "sources": [
+      "https://www.charite.de"
+    ]
+  },
+  {
+    "id": "aphp-paris",
+    "name": "AP-HP (Assistance Publique – Hôpitaux de Paris)",
+    "type": "academic",
+    "country": "France",
+    "city": "Paris",
+    "coordinates": { "lat": 48.8374, "lng": 2.3414 },
+    "website": "https://www.aphp.fr",
+    "annualSampleVolume": "200,000–350,000+ cases/year",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Dermatopathology"],
+    "description": "Largest public hospital group in Europe, comprising 39 hospitals across the Paris region with extensive anatomical pathology services.",
+    "sources": [
+      "https://www.aphp.fr"
+    ]
+  },
+  {
+    "id": "kings-college-hospital",
+    "name": "King's College Hospital",
+    "type": "academic",
+    "country": "United Kingdom",
+    "city": "London",
+    "coordinates": { "lat": 51.4685, "lng": -0.0886 },
+    "website": "https://www.kch.nhs.uk",
+    "annualSampleVolume": "200,000–300,000+ cases/year",
+    "digitizationLevel": "partial",
+    "specialties": ["Hepatopathology", "Renal pathology"],
+    "description": "Major academic teaching hospital in south London with a large pathology department and strong research output.",
+    "sources": [
+      "https://www.kch.nhs.uk"
+    ]
+  },
+  {
+    "id": "uz-leuven",
+    "name": "UZ Leuven",
+    "type": "academic",
+    "country": "Belgium",
+    "city": "Leuven",
+    "coordinates": { "lat": 50.8784, "lng": 4.6719 },
+    "website": "https://www.uzleuven.be",
+    "annualSampleVolume": "100,000–200,000+ cases/year",
+    "digitizationLevel": "fully_digital",
+    "softwarePlatform": "Sectra",
+    "specialties": ["Molecular pathology", "Oncologic pathology"],
+    "description": "Largest university hospital in Belgium. Signed a 10-year contract with Sectra to fully digitize anatomical pathology workflows.",
+    "sources": [
+      "https://www.uzleuven.be",
+      "https://medical.sectra.com"
+    ]
+  },
+  {
+    "id": "umc-utrecht",
+    "name": "UMC Utrecht",
+    "type": "academic",
+    "country": "Netherlands",
+    "city": "Utrecht",
+    "coordinates": { "lat": 52.0855, "lng": 5.1783 },
+    "website": "https://www.umcutrecht.nl",
+    "annualSampleVolume": "~800 slides/day",
+    "digitizationLevel": "fully_digital",
+    "scannerVendors": ["Hamamatsu"],
+    "softwarePlatform": "Sectra",
+    "specialties": ["Computational pathology", "AI-assisted diagnostics"],
+    "description": "Fully digital pathology department using Sectra Digital Pathology with 4× Hamamatsu NanoZoomer scanners processing approximately 800 slides per day.",
+    "sources": [
+      "https://www.umcutrecht.nl",
+      "https://medical.sectra.com"
+    ]
+  },
+  {
+    "id": "san-raffaele-milan",
+    "name": "San Raffaele Hospital",
+    "type": "academic",
+    "country": "Italy",
+    "city": "Milan",
+    "coordinates": { "lat": 45.505, "lng": 9.2634 },
+    "website": "https://www.hsr.it",
+    "annualSampleVolume": "100,000–200,000+ cases/year",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Transplant pathology"],
+    "description": "Major Italian research hospital and IRCCS with a strong anatomical pathology department integrated into its clinical and translational research programs.",
+    "sources": [
+      "https://www.hsr.it"
+    ]
+  },
+  {
+    "id": "vall-dhebron-barcelona",
+    "name": "Vall d'Hebron University Hospital",
+    "type": "academic",
+    "country": "Spain",
+    "city": "Barcelona",
+    "coordinates": { "lat": 41.4281, "lng": 2.1387 },
+    "website": "https://www.vallhebron.com",
+    "annualSampleVolume": "1,000,000+ slides/year (across 8 hospitals)",
+    "digitizationLevel": "fully_digital",
+    "softwarePlatform": "DigiPatICS",
+    "specialties": ["Digital pathology", "Oncologic pathology"],
+    "description": "Fully digital via the DigiPatICS initiative covering 8 Catalan hospitals, processing over 1 million slides per year.",
+    "sources": [
+      "https://www.vallhebron.com",
+      "https://digipatonc.cat"
+    ]
+  },
+  {
+    "id": "karolinska-stockholm",
+    "name": "Karolinska University Hospital",
+    "type": "academic",
+    "country": "Sweden",
+    "city": "Stockholm",
+    "coordinates": { "lat": 59.3496, "lng": 18.0348 },
+    "phone": "+46 8 123 70 000",
+    "website": "https://www.karolinska.se",
+    "annualSampleVolume": "~29M diagnostics (all lab services)",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Neuropathology", "Hematopathology"],
+    "description": "Sweden's largest university hospital and a leading European center for clinical research, with extensive pathology and laboratory medicine services.",
+    "sources": [
+      "https://www.karolinska.se"
+    ]
+  },
+  {
+    "id": "haukeland-bergen",
+    "name": "Haukeland University Hospital",
+    "type": "academic",
+    "country": "Norway",
+    "city": "Bergen",
+    "coordinates": { "lat": 60.383, "lng": 5.3654 },
+    "website": "https://helse-bergen.no",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology"],
+    "description": "Western Norway's largest hospital and a key node in the European Society for Digital and Integrative Pathology (ESDIP) digital map.",
+    "sources": [
+      "https://helse-bergen.no",
+      "https://www.esdip.org"
+    ]
+  },
+  {
+    "id": "hus-helsinki",
+    "name": "University of Helsinki / HUS Diagnostic Center",
+    "type": "academic",
+    "country": "Finland",
+    "city": "Helsinki",
+    "coordinates": { "lat": 60.1903, "lng": 24.906 },
+    "email": "ari.ristimaki@helsinki.fi",
+    "website": "https://www.helsinki.fi",
+    "digitizationLevel": "partial",
+    "specialties": ["GI pathology", "Oncologic pathology"],
+    "description": "Finland's leading academic pathology department within the Helsinki University Hospital diagnostic center.",
+    "sources": [
+      "https://www.helsinki.fi",
+      "https://www.hus.fi"
+    ]
+  },
+  {
+    "id": "odense-university-hospital",
+    "name": "Odense University Hospital",
+    "type": "academic",
+    "country": "Denmark",
+    "city": "Odense",
+    "coordinates": { "lat": 55.3829, "lng": 10.3882 },
+    "phone": "+45 65 41 48 24",
+    "email": "birgitte.preiss@rsyd.dk",
+    "website": "https://www.ouh.dk",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology"],
+    "description": "Major Danish university hospital and part of the European digital pathology research network.",
+    "sources": [
+      "https://www.ouh.dk",
+      "https://www.esdip.org"
+    ]
+  },
+  {
+    "id": "erasmus-mc-rotterdam",
+    "name": "Erasmus MC",
+    "type": "academic",
+    "country": "Netherlands",
+    "city": "Rotterdam",
+    "coordinates": { "lat": 51.9115, "lng": 4.4689 },
+    "website": "https://www.erasmusmc.nl",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Molecular pathology"],
+    "description": "Largest academic medical center in the Netherlands with a prominent department of pathology.",
+    "sources": [
+      "https://www.erasmusmc.nl"
+    ]
+  },
+  {
+    "id": "avl-amsterdam",
+    "name": "Antoni van Leeuwenhoek Hospital (Netherlands Cancer Institute)",
+    "type": "academic",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "coordinates": { "lat": 52.353, "lng": 4.922 },
+    "website": "https://www.avl.nl",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Molecular diagnostics"],
+    "description": "Dedicated comprehensive cancer center and research institute with specialized surgical pathology and molecular diagnostics.",
+    "sources": [
+      "https://www.avl.nl",
+      "https://www.nki.nl"
+    ]
+  },
+  {
+    "id": "chu-montpellier",
+    "name": "CHU Montpellier",
+    "type": "academic",
+    "country": "France",
+    "city": "Montpellier",
+    "coordinates": { "lat": 43.6325, "lng": 3.8458 },
+    "website": "https://www.chu-montpellier.fr",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology"],
+    "description": "Major southern French teaching hospital listed on the ESDIP digital pathology map as an adopter of digital workflows.",
+    "sources": [
+      "https://www.chu-montpellier.fr",
+      "https://www.esdip.org"
+    ]
+  },
+  {
+    "id": "hospital-universitario-burgos",
+    "name": "Hospital Universitario de Burgos",
+    "type": "academic",
+    "country": "Spain",
+    "city": "Burgos",
+    "coordinates": { "lat": 42.3519, "lng": -3.6758 },
+    "website": "https://www.hubu.es",
+    "digitizationLevel": "partial",
+    "specialties": ["General surgical pathology"],
+    "description": "Spanish university hospital featured on the ESDIP digital pathology map, actively pursuing digitization of pathology services.",
+    "sources": [
+      "https://www.esdip.org"
+    ]
+  },
+  {
+    "id": "ch-versailles",
+    "name": "Centre Hospitalier de Versailles",
+    "type": "public_hospital",
+    "country": "France",
+    "city": "Le Chesnay",
+    "coordinates": { "lat": 48.8166, "lng": 2.1333 },
+    "website": "https://www.ch-versailles.fr",
+    "digitizationLevel": "partial",
+    "specialties": ["General surgical pathology"],
+    "description": "Public hospital near Paris listed on the ESDIP digital pathology map as a participant in digital pathology adoption.",
+    "sources": [
+      "https://www.ch-versailles.fr",
+      "https://www.esdip.org"
+    ]
+  },
+  {
+    "id": "meduni-vienna",
+    "name": "Medical University of Vienna (AKH Wien)",
+    "type": "academic",
+    "country": "Austria",
+    "city": "Vienna",
+    "coordinates": { "lat": 48.2195, "lng": 16.3455 },
+    "website": "https://www.meduniwien.ac.at",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Neuropathology", "Dermatopathology"],
+    "description": "Austria's largest medical university and hospital, housing the Clinical Institute of Pathology with a broad diagnostic and research portfolio.",
+    "sources": [
+      "https://www.meduniwien.ac.at"
+    ]
+  },
+  {
+    "id": "usz-zurich",
+    "name": "University Hospital Zurich (USZ)",
+    "type": "academic",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "coordinates": { "lat": 47.3781, "lng": 8.5497 },
+    "website": "https://www.usz.ch",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Molecular pathology"],
+    "description": "Switzerland's largest university hospital with a renowned Department of Pathology and Molecular Pathology.",
+    "sources": [
+      "https://www.usz.ch"
+    ]
+  },
+  {
+    "id": "policlinico-gemelli-rome",
+    "name": "Fondazione Policlinico Universitario Agostino Gemelli",
+    "type": "academic",
+    "country": "Italy",
+    "city": "Rome",
+    "coordinates": { "lat": 41.9315, "lng": 12.4281 },
+    "website": "https://www.policlinicogemelli.it",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "GI pathology"],
+    "description": "One of Italy's largest teaching hospitals, affiliated with the Catholic University of the Sacred Heart, with an extensive anatomical pathology unit.",
+    "sources": [
+      "https://www.policlinicogemelli.it"
+    ]
+  },
+  {
+    "id": "synlab-germany-hq",
+    "name": "SYNLAB Germany (Headquarters)",
+    "type": "private_network",
+    "network": "SYNLAB",
+    "country": "Germany",
+    "city": "Munich",
+    "coordinates": { "lat": 48.1351, "lng": 11.582 },
+    "website": "https://www.synlab.com",
+    "annualSampleVolume": "600M+ tests/year (group-wide)",
+    "digitizationLevel": "partial",
+    "specialties": ["General pathology", "Molecular diagnostics"],
+    "description": "European headquarters of SYNLAB, the largest European medical diagnostics provider with 1,800+ sites across 36 countries.",
+    "sources": [
+      "https://www.synlab.com"
+    ]
+  },
+  {
+    "id": "synlab-belgium",
+    "name": "SYNLAB Belgium (Anatomical Pathology Center)",
+    "type": "private_network",
+    "network": "SYNLAB",
+    "country": "Belgium",
+    "city": "Rhode-Saint-Genèse",
+    "coordinates": { "lat": 50.7455, "lng": 4.3895 },
+    "website": "https://www.synlab.be",
+    "digitizationLevel": "partial",
+    "specialties": ["Anatomical pathology", "Cytopathology"],
+    "description": "SYNLAB's Belgian anatomical pathology center serving multiple hospitals and clinics in the Brussels region.",
+    "sources": [
+      "https://www.synlab.be"
+    ]
+  },
+  {
+    "id": "sonic-healthcare-germany",
+    "name": "Sonic Healthcare Germany (Headquarters)",
+    "type": "private_network",
+    "network": "Sonic Healthcare",
+    "country": "Germany",
+    "city": "Berlin",
+    "coordinates": { "lat": 52.52, "lng": 13.405 },
+    "website": "https://www.sonichealthcare.com",
+    "digitizationLevel": "partial",
+    "specialties": ["Histopathology", "Cytopathology"],
+    "description": "German operations of Sonic Healthcare, operating 79+ pathology and laboratory medicine practices across Germany.",
+    "sources": [
+      "https://www.sonichealthcare.com"
+    ]
+  },
+  {
+    "id": "sonic-healthcare-uk-halo",
+    "name": "Sonic Healthcare UK (The Halo Lab)",
+    "type": "private_network",
+    "network": "Sonic Healthcare",
+    "country": "United Kingdom",
+    "city": "London",
+    "coordinates": { "lat": 51.5073, "lng": -0.1277 },
+    "website": "https://www.sonichealthcare.co.uk",
+    "digitizationLevel": "partial",
+    "specialties": ["Histopathology", "Molecular diagnostics"],
+    "description": "One of Europe's largest pathology laboratories, part of Sonic Healthcare's UK operations providing comprehensive histopathology services.",
+    "sources": [
+      "https://www.sonichealthcare.co.uk"
+    ]
+  },
+  {
+    "id": "cerba-path-central",
+    "name": "Cerba Path Central Lab",
+    "type": "private_network",
+    "network": "Cerba HealthCare",
+    "country": "France",
+    "city": "Saint-Ouen-l'Aumône",
+    "coordinates": { "lat": 49.0484, "lng": 2.1079 },
+    "website": "https://www.cfrpath.com",
+    "digitizationLevel": "partial",
+    "pathologistCount": 44,
+    "specialties": ["Anatomical pathology", "Cytopathology", "Molecular pathology"],
+    "description": "Central anatomical pathology laboratory of Cerba HealthCare employing 44 pathologists across its French network.",
+    "sources": [
+      "https://www.cerbapath.com",
+      "https://www.cerbahealthcare.com"
+    ]
+  },
+  {
+    "id": "eurofins-biomnis-lyon",
+    "name": "Eurofins Biomnis",
+    "type": "private_network",
+    "network": "Eurofins",
+    "country": "France",
+    "city": "Lyon",
+    "coordinates": { "lat": 45.7389, "lng": 4.8428 },
+    "website": "https://www.eurofins-biomnis.com",
+    "digitizationLevel": "partial",
+    "specialties": ["Specialized testing", "Molecular diagnostics", "Oncologic pathology"],
+    "description": "Flagship specialized testing laboratory of the Eurofins network, one of France's largest reference laboratories for anatomical pathology and specialized diagnostics.",
+    "sources": [
+      "https://www.eurofins-biomnis.com"
+    ]
+  },
+  {
+    "id": "unilabs-switzerland-hq",
+    "name": "Unilabs Switzerland (Headquarters)",
+    "type": "private_network",
+    "network": "Unilabs",
+    "country": "Switzerland",
+    "city": "Geneva",
+    "coordinates": { "lat": 46.2044, "lng": 6.1432 },
+    "website": "https://www.unilabs.com",
+    "digitizationLevel": "partial",
+    "specialties": ["Histopathology", "Cytopathology"],
+    "description": "Headquarters of Unilabs, a major European diagnostics group operating 200+ laboratories in 14 countries.",
+    "sources": [
+      "https://www.unilabs.com"
+    ]
+  },
+  {
+    "id": "medicover-germany",
+    "name": "Medicover Germany",
+    "type": "private_network",
+    "network": "Medicover",
+    "country": "Germany",
+    "city": "Berlin",
+    "coordinates": { "lat": 52.52, "lng": 13.405 },
+    "website": "https://www.medicover.com",
+    "digitizationLevel": "unknown",
+    "specialties": ["General pathology", "Laboratory diagnostics"],
+    "description": "German hub of Medicover Diagnostics, operating 135 laboratories across Central and Eastern Europe with growing pathology services.",
+    "sources": [
+      "https://www.medicover.com"
+    ]
+  },
+  {
+    "id": "hospital-la-paz-madrid",
+    "name": "Hospital Universitario La Paz",
+    "type": "academic",
+    "country": "Spain",
+    "city": "Madrid",
+    "coordinates": { "lat": 40.4788, "lng": -3.6872 },
+    "website": "https://www.comunidad.madrid/hospital/lapaz",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Pediatric pathology"],
+    "description": "One of Spain's largest academic hospitals with a comprehensive anatomical pathology department serving the northern Madrid health area.",
+    "sources": [
+      "https://www.comunidad.madrid/hospital/lapaz"
+    ]
+  },
+  {
+    "id": "bellvitge-lhospitalet",
+    "name": "Bellvitge University Hospital",
+    "type": "academic",
+    "country": "Spain",
+    "city": "L'Hospitalet de Llobregat",
+    "coordinates": { "lat": 41.3416, "lng": 2.1074 },
+    "website": "https://bellvitgehospital.cat",
+    "digitizationLevel": "fully_digital",
+    "softwarePlatform": "DigiPatICS",
+    "specialties": ["Oncologic pathology", "Digital pathology"],
+    "description": "Part of the DigiPatICS digital pathology network, one of eight Catalan hospitals fully digitized for anatomical pathology.",
+    "sources": [
+      "https://bellvitgehospital.cat",
+      "https://digipatonc.cat"
+    ]
+  },
+  {
+    "id": "rigshospitalet-copenhagen",
+    "name": "Rigshospitalet",
+    "type": "academic",
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "coordinates": { "lat": 55.6959, "lng": 12.568 },
+    "website": "https://www.rigshospitalet.dk",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Neuropathology", "Hematopathology"],
+    "description": "Denmark's largest and most specialized hospital, affiliated with the University of Copenhagen, with extensive pathology services.",
+    "sources": [
+      "https://www.rigshospitalet.dk"
+    ]
+  },
+  {
+    "id": "oslo-university-hospital",
+    "name": "Oslo University Hospital",
+    "type": "academic",
+    "country": "Norway",
+    "city": "Oslo",
+    "coordinates": { "lat": 59.944, "lng": 10.7184 },
+    "website": "https://oslo-universitetssykehus.no",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Molecular pathology"],
+    "description": "Norway's largest hospital and a major European research center with a comprehensive department of pathology.",
+    "sources": [
+      "https://oslo-universitetssykehus.no"
+    ]
+  },
+  {
+    "id": "sahlgrenska-gothenburg",
+    "name": "Sahlgrenska University Hospital",
+    "type": "academic",
+    "country": "Sweden",
+    "city": "Gothenburg",
+    "coordinates": { "lat": 57.683, "lng": 11.9615 },
+    "website": "https://www.sahlgrenska.se",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "GI pathology"],
+    "description": "One of Sweden's largest hospitals and Northern Europe's biggest emergency hospitals, with a substantial clinical pathology department.",
+    "sources": [
+      "https://www.sahlgrenska.se"
+    ]
+  },
+  {
+    "id": "uppsala-university-hospital",
+    "name": "Uppsala University Hospital",
+    "type": "academic",
+    "country": "Sweden",
+    "city": "Uppsala",
+    "coordinates": { "lat": 59.8518, "lng": 17.6301 },
+    "website": "https://www.akademiska.se",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Immunopathology"],
+    "description": "Major Swedish academic hospital with a long tradition of pathology research, affiliated with Uppsala University.",
+    "sources": [
+      "https://www.akademiska.se"
+    ]
+  },
+  {
+    "id": "meduni-graz",
+    "name": "Medical University of Graz",
+    "type": "academic",
+    "country": "Austria",
+    "city": "Graz",
+    "coordinates": { "lat": 47.0802, "lng": 15.4486 },
+    "website": "https://www.medunigraz.at",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Molecular pathology"],
+    "description": "Austria's second-largest medical university with the Diagnostic and Research Institute of Pathology focusing on translational research.",
+    "sources": [
+      "https://www.medunigraz.at"
+    ]
+  },
+  {
+    "id": "chuv-lausanne",
+    "name": "CHUV (Centre Hospitalier Universitaire Vaudois)",
+    "type": "academic",
+    "country": "Switzerland",
+    "city": "Lausanne",
+    "coordinates": { "lat": 46.5247, "lng": 6.6316 },
+    "website": "https://www.chuv.ch",
+    "digitizationLevel": "partial",
+    "specialties": ["Oncologic pathology", "Forensic pathology"],
+    "description": "One of Switzerland's five university hospitals with an Institute of Pathology active in both diagnostic and research pathology.",
+    "sources": [
+      "https://www.chuv.ch"
+    ]
+  },
+  {
+    "id": "cwps-coventry",
+    "name": "Coventry & Warwickshire Pathology Services (UHCW)",
+    "type": "public_hospital",
+    "country": "United Kingdom",
+    "city": "Coventry",
+    "coordinates": { "lat": 52.41, "lng": -1.51 },
+    "website": "https://www.uhcw.nhs.uk",
+    "digitizationLevel": "partial",
+    "specialties": ["General surgical pathology"],
+    "description": "NHS pathology services for the Coventry and Warwickshire region, featured on the ESDIP digital pathology map.",
+    "sources": [
+      "https://www.uhcw.nhs.uk",
+      "https://www.esdip.org"
+    ]
+  },
+  {
+    "id": "palga-houten",
+    "name": "PALGA (Dutch Pathology Registry)",
+    "type": "public_hospital",
+    "country": "Netherlands",
+    "city": "Houten",
+    "coordinates": { "lat": 52.0303, "lng": 5.17 },
+    "website": "https://www.palga.nl",
+    "annualSampleVolume": "2,000,000+ cases/year (network-wide)",
+    "digitizationLevel": "partial",
+    "specialties": ["Pathology data infrastructure", "Cancer screening"],
+    "description": "National network hub connecting all 43 Dutch pathology laboratories. Maintains the nationwide pathology database with over 2 million cases per year.",
+    "sources": [
+      "https://www.palga.nl"
+    ]
+  }
+]
